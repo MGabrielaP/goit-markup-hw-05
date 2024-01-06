@@ -21,6 +21,11 @@
   </head>
 
   <body>
+    <div class="modal is-hidden" data-modal>
+      <div>
+        <button data-modal-close>Close</button>
+      </div>
+    </div>
     <!-- Header - Menu Nav-->
     <header class="header">
       <div class="nav-flex container">
@@ -63,7 +68,7 @@
       <section class="hero-section">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="hero-button pointer">
+          <button type="button" class="hero-button pointer" data-modal-open>
             Order Service
           </button>
         </div>
@@ -467,5 +472,6 @@
         </div>
       </div>
     </footer>
+    <script src="./modal.js"></script>
   </body>
 </html>
