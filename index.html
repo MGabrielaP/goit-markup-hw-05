@@ -21,11 +21,6 @@
   </head>
 
   <body>
-    <div class="modal is-hidden" data-modal>
-      <div>
-        <button data-modal-close>Close</button>
-      </div>
-    </div>
     <!-- Header - Menu Nav-->
     <header class="header">
       <div class="nav-flex container">
@@ -482,6 +477,11 @@
         </div>
       </div>
     </footer>
+    <div class="modal is-hidden" data-modal-open>
+      <div class="modal-window">
+        <button class="modal-button" data-modal-close>Close</button>
+      </div>
+    </div>
     <script src="./modal.js"></script>
   </body>
 </html>
