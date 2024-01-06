@@ -326,6 +326,7 @@ body {
   padding: 24px 0;
   position: relative;
   color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-header-ul::after {
@@ -336,7 +337,6 @@ body {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-header:hover {
@@ -491,6 +491,11 @@ body {
   width: 296px;
 }
 
+.text-overlay:hover,
+.text-overlay:focus {
+  transform: translateY(0%);
+}
+
 .images-title-portfolio {
   font-weight: 500;
   font-size: 20px;
@@ -537,6 +542,10 @@ body {
 
 .buttons-nav {
   border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0, 0.2, 1);
 }
 
 .buttons-nav:hover {
@@ -582,7 +591,6 @@ body {
 .portfolio-images-link:focus {
   box-shadow: 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
-  transform: translateY(0%);
 }
 
 .portfolio-images-list {
