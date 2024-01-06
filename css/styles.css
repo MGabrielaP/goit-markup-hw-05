@@ -485,10 +485,13 @@ body {
   color: var(--logo-buttons-sectionfour-index-background-color);
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   margin: 40px 32px 164px 32px;
   width: 296px;
+  position: absolute;
+  top: 0;
+  height: 100%;
 }
 
 .text-overlay:hover,
