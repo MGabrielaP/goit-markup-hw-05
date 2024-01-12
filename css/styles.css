@@ -366,12 +366,11 @@ body {
   width: 100%;
   position: absolute;
   left: 0;
-  bottom: -1px;
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
-  display: block;
-  top: 20px;
+display: block;
+  bottom: -2px;
 }
 
 .nav-header:hover {
